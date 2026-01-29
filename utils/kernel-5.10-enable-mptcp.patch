@@ -1,0 +1,14 @@
+diff --git a/arch/lib/configs/defconfig b/arch/lib/configs/defconfig
+index 7fab6d9c3..69baf6b37 100644
+--- a/arch/lib/configs/defconfig
++++ b/arch/lib/configs/defconfig
+@@ -134,6 +134,9 @@ CONFIG_IPV6_GRE=y
+ CONFIG_IPV6_MULTIPLE_TABLES=y
+ CONFIG_IPV6_SUBTREES=y
+ # CONFIG_IPV6_MROUTE is not set
++CONFIG_MPTCP=y
++CONFIG_INET_MPTCP_DIAG=y
++CONFIG_MPTCP_IPV6=y
+ # CONFIG_NETWORK_SECMARK is not set
+ # CONFIG_NET_PTP_CLASSIFY is not set
+ # CONFIG_NETWORK_PHY_TIMESTAMPING is not set
